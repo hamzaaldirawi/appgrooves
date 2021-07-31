@@ -1,0 +1,17 @@
+.dv {
+  border: 1px solid $color-col-grey;
+  box-shadow: 0px 2px 3px $box-shadow-color;
+
+  &__p {
+    padding: 15px 20px;
+  }
+
+  &__nlr {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  &__color {
+    background: $color-white;
+  }
+}

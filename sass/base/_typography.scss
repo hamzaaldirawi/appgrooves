@@ -1,0 +1,27 @@
+p {
+  margin: 0;
+}
+
+.pr {
+  &__heading {
+    font-size: $font-size-big;
+    font-weight: $font-weight-bold;
+    line-height: 26px;
+  }
+
+  &__black {
+    color: $color-black;
+  }
+
+  &__grey {
+    color: $color-grey;
+  }
+
+  &__last {
+    float: right;
+  }
+}
+
+.pd__left {
+  padding-left: 10px;
+}

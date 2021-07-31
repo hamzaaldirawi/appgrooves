@@ -12,36 +12,3 @@ body {
   box-sizing: border-box;
   background: $color-background-gery;
 }
-
-.row-container {
-  max-width: 1140px;
-  margin: auto;
-}
-
-@mixin respond($breakpoint) {
-  @if $breakpoint == phone {
-    @media only screen and (max-width: 767px) {
-      @content;
-    }
-  }
-  @if $breakpoint == min-phone {
-    @media only screen and (min-width: 767px) {
-      @content;
-    }
-  }
-  @if $breakpoint == tab-land {
-    @media only screen and (max-width: 770px) {
-      @content;
-    }
-  }
-  @if $breakpoint == tab-port {
-    @media only screen and (max-width: 992px) {
-      @content;
-    }
-  }
-  @if $breakpoint == desktop {
-    @media only screen and (min-width: 1200px) {
-      @content;
-    }
-  }
-}
