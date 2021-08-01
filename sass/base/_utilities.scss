@@ -46,6 +46,45 @@
     background: $color-blue;
     color: $color-white;
     font-weight: $font-weight-medium;
+    &_s {
+      font-size: $font-size-normal;
+      padding: 2px 8px;
+      background: $color-background-gery;
+      color: $color-blue;
+      border-radius: 15px;
+    }
+  }
+  &__white {
+    background: $color-white;
+    color: $color-black;
+    padding: 5px 15px;
+    border: 1px solid $color-col-grey;
+  }
+  &__kw_section {
+    width: 100%;
+    background: $color-black;
+    color: $color-white;
+    border: none;
+    border-radius: 25px;
+    padding: 10px;
+    font-size: 16px;
+    text-transform: uppercase;
+    box-shadow: 0px 2px 3px $box-shadow-color;
+    margin-bottom: 25px;
+  }
+  &__dv {
+    border: 1px solid $color-grey;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px 0;
+    width: 100%;
+    background: $color-white;
+  }
+
+  &__m {
+    &_b {
+      margin-bottom: 10px;
+    }
   }
 }
 

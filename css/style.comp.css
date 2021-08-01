@@ -45,6 +45,9 @@ p {
   .pr__absolute_white {
     color: #fff; }
 
+.pr__text_center {
+  text-align: center; }
+
 .pr__text_last {
   text-align: right;
   padding: 15px 20px; }
@@ -104,8 +107,18 @@ p {
 .pr__m_l {
   margin-left: 10px; }
 
+.pr__kw_section {
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  line-height: 18.75px;
+  padding: 25px; }
+
 .pr__last {
   float: right; }
+
+.pd__t_1 {
+  padding: 1px 15px; }
 
 .pd__left {
   padding-left: 10px; }
@@ -150,6 +163,37 @@ p {
     background: #3981e5;
     color: #fff;
     font-weight: 500; }
+    .bt__blue_s {
+      font-size: 14px;
+      padding: 2px 8px;
+      background: #f7f7f7;
+      color: #3981e5;
+      border-radius: 15px; }
+  .bt__white {
+    background: #fff;
+    color: #212121;
+    padding: 5px 15px;
+    border: 1px solid #eeeeee; }
+  .bt__kw_section {
+    width: 100%;
+    background: #212121;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    padding: 10px;
+    font-size: 16px;
+    text-transform: uppercase;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.16);
+    margin-bottom: 25px; }
+  .bt__dv {
+    border: 1px solid #737373;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px 0;
+    width: 100%;
+    background: #fff; }
+  .bt__m_b {
+    margin-bottom: 10px; }
 
 .put {
   background: #fff;
@@ -180,7 +224,8 @@ p {
           padding-left: 0; } }
   .col__left {
     border: 1px solid #eeeeee;
-    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.16); }
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.16);
+    height: 100%; }
   .col__width {
     width: 15px; }
   @media only screen and (max-width: 767px) {
@@ -244,6 +289,8 @@ p {
     position: relative; }
   .dv__box {
     box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.16); }
+    .dv__box_s {
+      box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.16); }
   .dv__comment {
     background: #fff;
     margin-left: 0;
@@ -258,6 +305,10 @@ p {
     padding: 10px 10px 0 60px; }
   .dv__p {
     padding: 15px 20px; }
+    .dv__p_no {
+      padding: 0; }
+    .dv__p_kw {
+      padding: 15px 5px; }
     .dv__p_l {
       padding-left: 20px; }
     .dv__p_l_s {
@@ -269,6 +320,11 @@ p {
     .dv__ptb {
       padding-top: 10px;
       padding-bottom: 10px; }
+    .dv__p_r_s {
+      padding-right: 5px; }
+  .dv__m_no {
+    margin-right: 0;
+    margin-left: 0; }
   .dv__m_t {
     margin-top: 20px; }
   .dv__m_l_minus {
@@ -290,8 +346,13 @@ p {
     background: #f9f9f9;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px; }
+  .dv__blue {
+    background: #3981e5; }
   .dv__center {
     text-align: center; }
+    .dv__center_50 {
+      width: 50%;
+      margin: 0 auto; }
   .dv__flex {
     display: flex;
     padding: 10px 0; }

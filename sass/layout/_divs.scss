@@ -6,6 +6,9 @@
   }
   &__box {
     box-shadow: 0px 2px 3px $box-shadow-color;
+    &_s {
+      box-shadow: 0px 0px 1px $box-shadow-color;
+    }
   }
   &__comment {
     background: $color-white;
@@ -24,6 +27,12 @@
   }
   &__p {
     padding: 15px 20px;
+    &_no {
+      padding: 0;
+    }
+    &_kw {
+      padding: 15px 5px;
+    }
     &_l {
       padding-left: 20px;
     }
@@ -40,9 +49,16 @@
       padding-top: 10px;
       padding-bottom: 10px;
     }
+    &_r_s {
+      padding-right: 5px;
+    }
   }
 
   &__m {
+    &_no {
+      margin-right: 0;
+      margin-left: 0;
+    }
     &_t {
       margin-top: 20px;
     }
@@ -80,8 +96,15 @@
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
   }
+  &__blue {
+    background: $color-blue;
+  }
   &__center {
     text-align: center;
+    &_50 {
+      width: 50%;
+      margin: 0 auto;
+    }
   }
 
   &__flex {

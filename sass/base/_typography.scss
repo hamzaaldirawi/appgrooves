@@ -41,6 +41,9 @@ p {
   }
 
   &__text {
+    &_center {
+      text-align: center;
+    }
     &_last {
       text-align: right;
       padding: 15px 20px;
@@ -113,12 +116,22 @@ p {
     margin-left: 10px;
   }
 
+  &__kw_section {
+    color: $color-white;
+    font-size: $font-size-normal;
+    text-align: center;
+    line-height: 18.75px;
+    padding: 25px;
+  }
   &__last {
     float: right;
   }
 }
 
 .pd {
+  &__t_1 {
+    padding: 1px 15px;
+  }
   &__left {
     padding-left: 10px;
   }
