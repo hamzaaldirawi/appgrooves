@@ -14,6 +14,15 @@ p {
       font-size: $font-size-med;
       font-weight: $font-weight-bold;
     }
+    &_xxs {
+      font-size: $font-size-normal;
+      font-weight: $font-weight-bold;
+    }
+    &_xl {
+      font-size: $font-size-xl;
+      color: $color-button-grey;
+      text-align: center;
+    }
   }
   &__border {
     border: 1px solid $color-grey;
@@ -22,7 +31,21 @@ p {
   &__radius {
     border-radius: 2px;
   }
+  &__absolute {
+    position: absolute;
+    top: 240px;
+    left: 20px;
+    &_white {
+      color: $color-white;
+    }
+  }
 
+  &__text {
+    &_last {
+      text-align: right;
+      padding: 15px 20px;
+    }
+  }
   &__small {
     font-size: $font-size-small;
     &_l {

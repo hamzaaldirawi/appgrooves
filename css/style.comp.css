@@ -23,6 +23,13 @@ p {
   .pr__heading_xs {
     font-size: 16px;
     font-weight: bold; }
+  .pr__heading_xxs {
+    font-size: 14px;
+    font-weight: bold; }
+  .pr__heading_xl {
+    font-size: 30px;
+    color: #dddddd;
+    text-align: center; }
 
 .pr__border {
   border: 1px solid #737373;
@@ -30,6 +37,17 @@ p {
 
 .pr__radius {
   border-radius: 2px; }
+
+.pr__absolute {
+  position: absolute;
+  top: 240px;
+  left: 20px; }
+  .pr__absolute_white {
+    color: #fff; }
+
+.pr__text_last {
+  text-align: right;
+  padding: 15px 20px; }
 
 .pr__small {
   font-size: 10px; }
@@ -104,6 +122,14 @@ p {
   .image__margin {
     margin-top: 15px;
     margin-bottom: 15px; }
+    .image__margin_b {
+      margin-top: 0;
+      margin-bottom: 15px; }
+  .image__p {
+    padding: 10px 15px; }
+  .image__replay {
+    width: 35px;
+    height: 35px; }
   .image__rounded {
     border-radius: 50%; }
   .image__semi_rounded {
@@ -136,6 +162,10 @@ p {
     padding: 10px;
     border-radius: 24px;
     width: 33%; }
+    .put__bt_20 {
+      padding: 10px;
+      border-radius: 24px;
+      width: 20%; }
 
 .col {
   background: #fff;
@@ -210,6 +240,8 @@ p {
 .dv {
   border: 1px solid #eeeeee;
   box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.16); }
+  .dv__relative {
+    position: relative; }
   .dv__box {
     box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.16); }
   .dv__comment {
@@ -217,17 +249,30 @@ p {
     margin-left: 0;
     margin-right: 0;
     padding: 20px; }
+  .dv__100vw {
+    width: 100vw; }
+  .dv__replay {
+    background: #fff;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 10px 10px 0 60px; }
   .dv__p {
     padding: 15px 20px; }
     .dv__p_l {
       padding-left: 20px; }
     .dv__p_l_s {
       padding-left: 5px; }
+    .dv__p_l_m {
+      padding-left: 15px; }
     .dv__p_nr {
       padding-right: 0; }
-  .dv__ptb {
-    padding-top: 10px;
-    padding-bottom: 10px; }
+    .dv__ptb {
+      padding-top: 10px;
+      padding-bottom: 10px; }
+  .dv__m_t {
+    margin-top: 20px; }
+  .dv__m_l_minus {
+    margin-left: -15px; }
   .dv__nlr {
     padding-left: 0;
     padding-right: 0; }
@@ -237,8 +282,14 @@ p {
       padding-bottom: 5px; }
   .dv__np {
     padding: 0; }
+    .dv__np_b {
+      padding-bottom: 0; }
   .dv__color {
     background: #fff; }
+  .dv__grey {
+    background: #f9f9f9;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px; }
   .dv__center {
     text-align: center; }
   .dv__flex {

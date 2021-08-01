@@ -5,8 +5,20 @@
   &__margin {
     margin-top: 15px;
     margin-bottom: 15px;
+    &_b {
+      margin-top: 0;
+      margin-bottom: 15px;
+    }
   }
 
+  &__p {
+    padding: 10px 15px;
+  }
+
+  &__replay {
+    width: 35px;
+    height: 35px;
+  }
   &__rounded {
     border-radius: 50%;
   }
@@ -48,5 +60,10 @@
     padding: 10px;
     border-radius: 24px;
     width: 33%;
+    &_20 {
+      padding: 10px;
+      border-radius: 24px;
+      width: 20%;
+    }
   }
 }
