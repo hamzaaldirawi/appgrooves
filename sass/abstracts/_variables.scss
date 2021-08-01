@@ -2,8 +2,12 @@
 $color-blue: #3981e5;
 $color-black: #212121;
 $color-grey: #737373;
+$color-lite-grey: #6666661f;
 $color-green: #37b779;
+$color-lite-green: #e7f6ef;
 $color-red: #ff512f;
+$color-lite-red: #ff60401f;
+$color-yellow: #f4b61e;
 $color-white: #fff;
 $color-android-green: #88c347;
 $color-background-gery: #f7f7f7;
@@ -14,8 +18,11 @@ $color-input-grey: #cccccc;
 $box-shadow-color: rgba(0, 0, 0, 0.16);
 
 // FONT
+$font-size-small: 10px;
+$font-size-l-small: 12px;
 $font-size-normal: 14px;
 $font-size-med: 16px;
+$font-size-large: 20px;
 $font-size-big: 22px;
 
 $font-family-default: 'Roboto', sans-serif;

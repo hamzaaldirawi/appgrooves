@@ -2,8 +2,31 @@
   border: 1px solid $color-col-grey;
   box-shadow: 0px 2px 3px $box-shadow-color;
 
+  &__box {
+    box-shadow: 0px 2px 3px $box-shadow-color;
+  }
+  &__comment {
+    background: $color-white;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 20px;
+  }
   &__p {
     padding: 15px 20px;
+    &_l {
+      padding-left: 20px;
+    }
+    &_l_s {
+      padding-left: 5px;
+    }
+    &_nr {
+      padding-right: 0;
+    }
+  }
+
+  &__ptb {
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 
   &__nlr {
@@ -11,7 +34,27 @@
     padding-right: 0;
   }
 
+  &__s_padding {
+    padding: 15px;
+    &_b {
+      padding-bottom: 5px;
+    }
+  }
+
+  &__np {
+    padding: 0;
+  }
+
   &__color {
     background: $color-white;
+  }
+
+  &__center {
+    text-align: center;
+  }
+
+  &__flex {
+    display: flex;
+    padding: 10px 0;
   }
 }

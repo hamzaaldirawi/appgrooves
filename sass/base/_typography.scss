@@ -7,14 +7,87 @@ p {
     font-size: $font-size-big;
     font-weight: $font-weight-bold;
     line-height: 26px;
+    &_s {
+      font-size: $font-size-large;
+    }
+    &_xs {
+      font-size: $font-size-med;
+      font-weight: $font-weight-bold;
+    }
+  }
+  &__border {
+    border: 1px solid $color-grey;
+    border-radius: 7px;
+  }
+  &__radius {
+    border-radius: 2px;
+  }
+
+  &__small {
+    font-size: $font-size-small;
+    &_l {
+      font-size: $font-size-l-small;
+    }
+  }
+
+  &__medium {
+    font-size: $font-size-med;
   }
 
   &__black {
     color: $color-black;
   }
 
+  &__blue {
+    color: $color-blue;
+  }
   &__grey {
     color: $color-grey;
+  }
+  &__b_grey {
+    background: $color-lite-grey;
+  }
+
+  &__green {
+    color: $color-green;
+  }
+  &__b_green {
+    background: $color-lite-green;
+  }
+
+  &__red {
+    color: $color-red;
+  }
+  &__b_red {
+    background: $color-lite-red;
+  }
+  &__yellow {
+    color: $color-yellow;
+  }
+  &__pall {
+    padding: 5px 10px;
+  }
+  &__pt {
+    padding-top: 5px;
+    &b {
+      padding: 5px 0;
+    }
+  }
+
+  &__plr {
+    padding: 0 5px;
+  }
+
+  &__m_t {
+    margin-top: 5px;
+  }
+
+  &__m_b {
+    margin-bottom: 5px;
+  }
+
+  &__m_l {
+    margin-left: 10px;
   }
 
   &__last {
@@ -22,6 +95,15 @@ p {
   }
 }
 
-.pd__left {
-  padding-left: 10px;
+.pd {
+  &__left {
+    padding-left: 10px;
+  }
+  &__right {
+    padding-right: 10px;
+  }
+  &__s_left,
+  &__s_right {
+    padding-right: 5px;
+  }
 }

@@ -51,7 +51,7 @@
     }
 
     @include respond(tab-land) {
-      font-size: 10px;
+      font-size: $font-size-small;
     }
   }
   &__search {

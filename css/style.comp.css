@@ -18,12 +18,73 @@ p {
   font-size: 22px;
   font-weight: bold;
   line-height: 26px; }
+  .pr__heading_s {
+    font-size: 20px; }
+  .pr__heading_xs {
+    font-size: 16px;
+    font-weight: bold; }
+
+.pr__border {
+  border: 1px solid #737373;
+  border-radius: 7px; }
+
+.pr__radius {
+  border-radius: 2px; }
+
+.pr__small {
+  font-size: 10px; }
+  .pr__small_l {
+    font-size: 12px; }
+
+.pr__medium {
+  font-size: 16px; }
 
 .pr__black {
   color: #212121; }
 
+.pr__blue {
+  color: #3981e5; }
+
 .pr__grey {
   color: #737373; }
+
+.pr__b_grey {
+  background: #6666661f; }
+
+.pr__green {
+  color: #37b779; }
+
+.pr__b_green {
+  background: #e7f6ef; }
+
+.pr__red {
+  color: #ff512f; }
+
+.pr__b_red {
+  background: #ff60401f; }
+
+.pr__yellow {
+  color: #f4b61e; }
+
+.pr__pall {
+  padding: 5px 10px; }
+
+.pr__pt {
+  padding-top: 5px; }
+  .pr__ptb {
+    padding: 5px 0; }
+
+.pr__plr {
+  padding: 0 5px; }
+
+.pr__m_t {
+  margin-top: 5px; }
+
+.pr__m_b {
+  margin-bottom: 5px; }
+
+.pr__m_l {
+  margin-left: 10px; }
 
 .pr__last {
   float: right; }
@@ -31,8 +92,50 @@ p {
 .pd__left {
   padding-left: 10px; }
 
-.image__rounded {
-  radius: 50%; }
+.pd__right {
+  padding-right: 10px; }
+
+.pd__s_left, .pd__s_right {
+  padding-right: 5px; }
+
+.image {
+  width: 100%;
+  height: auto; }
+  .image__margin {
+    margin-top: 15px;
+    margin-bottom: 15px; }
+  .image__rounded {
+    border-radius: 50%; }
+  .image__semi_rounded {
+    border-radius: 10px; }
+
+.ad__symbol {
+  font-size: 16px;
+  color: #737373;
+  padding-top: 10px; }
+
+.bt {
+  margin-left: 5px;
+  padding: 5px 15px;
+  text-transform: uppercase;
+  border-radius: 2%;
+  border: 0; }
+  .bt__blue {
+    background: #3981e5;
+    color: #fff;
+    font-weight: 500; }
+
+.put {
+  background: #fff;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+  border-radius: 24px;
+  padding: 10px;
+  width: 65%; }
+  .put__bt {
+    padding: 10px;
+    border-radius: 24px;
+    width: 33%; }
 
 .col {
   background: #fff;
@@ -107,10 +210,37 @@ p {
 .dv {
   border: 1px solid #eeeeee;
   box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.16); }
+  .dv__box {
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.16); }
+  .dv__comment {
+    background: #fff;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 20px; }
   .dv__p {
     padding: 15px 20px; }
+    .dv__p_l {
+      padding-left: 20px; }
+    .dv__p_l_s {
+      padding-left: 5px; }
+    .dv__p_nr {
+      padding-right: 0; }
+  .dv__ptb {
+    padding-top: 10px;
+    padding-bottom: 10px; }
   .dv__nlr {
     padding-left: 0;
     padding-right: 0; }
+  .dv__s_padding {
+    padding: 15px; }
+    .dv__s_padding_b {
+      padding-bottom: 5px; }
+  .dv__np {
+    padding: 0; }
   .dv__color {
     background: #fff; }
+  .dv__center {
+    text-align: center; }
+  .dv__flex {
+    display: flex;
+    padding: 10px 0; }
