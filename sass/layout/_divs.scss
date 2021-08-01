@@ -35,6 +35,9 @@
     }
     &_l {
       padding-left: 20px;
+      @include respond(tab-land) {
+        padding-left: 30px;
+      }
     }
     &_l_s {
       padding-left: 5px;
@@ -83,6 +86,12 @@
 
   &__np {
     padding: 0;
+    &_m {
+      @include respond(phone) {
+        padding: 0 15px;
+      }
+    }
+
     &_b {
       padding-bottom: 0;
     }

@@ -12,3 +12,20 @@ body {
   box-sizing: border-box;
   background: $color-background-gery;
 }
+
+.hidden__m {
+  @include respond(phone) {
+    display: none;
+  }
+}
+
+.hidden__b {
+  @include respond(min-phone) {
+    display: none;
+  }
+}
+
+.mobile__div {
+  font-size: 6px;
+  margin-bottom: 5px;
+}

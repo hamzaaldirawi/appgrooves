@@ -23,7 +23,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/style.comp.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -168,7 +168,7 @@
                                 <img class="image image__margin image__semi_rounded" src="img/sections/black-hat.png">
                                 <div class="dv__nlr">
                                     <p class="pr__medium">This is the life goal summary in display Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tired of applying to 50 jobs and not getting any responses? Use these apps 
-                                        <a href="#">LEARN MORE.</a>
+                                        <span class="pr__last pr__medium"><a href="#">LEARN MORE.</a></span>
                                     </p>
                                 </div>
                                 <div class="dv__nlr dv__ptb">
@@ -192,18 +192,58 @@
                         <section class="dv">
                             <div class="dv__s_padding dv__s_padding_b">
                                 <div class="row">
-                                    <div class="col-md-2 dv__center dv__np">
+                                    <div class="col-md-2 col-3 dv__center dv__np dv__np_m">
                                         <img class="image__semi_rounded" src="img/assets/ad.png" alt="ad">
                                         <div>
                                             <i class="fas fa-thumbs-up ad__symbol"> 50</i>
                                         </div>
                                     </div>
-                                    <div class="col-md-7 dv__np">
-                                        <p class="pr__heading_s pr__m_b">Nykaa: Beauty Shopping App. Buy Makeup & Cosmetics</p>
-                                        <span class="pr__grey">Amazon Mobile LLC</span>
-                                        <p class="pr__m_t pr__m_b pr__black pr__medium">Best shopping app for makeup, skincare, hair care & fragrance for women & men</p>
+                                    <div class="col-md-7 col-9 dv__np dv__np_m">
+                                        <p class="pr__heading_s pr__m_b hidden__m">Nykaa: Beauty Shopping App. Buy Makeup & Cosmetics</p>
+                                        <span class="pr__grey hidden__m">Amazon Mobile LLC</span>
+                                        <p class="pr__m_t pr__m_b pr__black pr__medium hid">Best shopping app for makeup, skincare, hair care & fragrance for women & men</p>
+                                        <div class="hidden-bg mobile__div">
+                                            <span>
+                                                <span class="pr__grey pr__normal">5 </span>
+                                                <span class="pd__s_left pr__normal pr__yellow"><i class="fas fa-star"></i></span>
+                                                <span class="pd__s_left pr__grey pr__normal">205K Reviews</span>
+                                                <span class="pd__s_left pr__grey pr__normal"><i class="fas fa-download"></i> </span>
+                                                <span class="pd__s_left pr__grey pr__normal">10M Downloads</span>
+                                                <span class="pd__s_left pr__grey pr__normal">
+                                                    <img src="img/assets/android.png"
+                                                </span> 
+                                                <span class="pd__s_left pr__normal pr__blue">
+                                                    <i class="fab fa-apple"></i>
+                                                </span>
+                                                <span class="pd__s_left pr__grey pr__normal"><a href="#">Shopping</a></span>
+                                                <span class="pd__s_left pr__grey pr__normal">|</span>
+                                                <span class="pd__s_left pr__grey pr__normal"><a href="#">Reports</a></span>
+                                            </span>
+                                            <div class="pr__m_t">
+                                                <span class="pr__b_green pr__radius pr__normal">
+                                                    <i class="pr__plr fas fa-user pr__green"></i>
+                                                    2021 users said ”helpful!"
+                                                </span>
+                                                <span class="pr__m_l pr__radius pr__b_red pr__normal">
+                                                    <i class="pr__plr fas fa-fire pr__red"></i>
+                                                    Trending
+                                                </span>
+                                                <span class="pr__m_l pr__radius pr__b_grey pr__plr pr__normal">
+                                                    <img src="img/assets/iap.png">
+                                                    In-App Purchases
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="row hidden__b">
+                                            <div class="col-12 dv__np dv__np_m bt__mobile">        
+                                                <button class="bt bt__blue">
+                                                    <i class="fab fa-apple"></i>
+                                                    <span class="pr__plr">Install</span>
+                                                </button>              
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="col-md-3 dv__np">        
+                                    <div class="col-md-3 hidden__m dv__np dv__np_m">        
                                         <span class="dv__flex">
                                             <p class="pr__medium pr__ptb pr__blue">Free</p>
                                             <button class="bt bt__blue">
@@ -213,58 +253,66 @@
                                             </button>
                                         </span>              
                                     </div>
+                                    
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col-md-2 dv__center dv__np"></div>
-                                <div class="col-md-10">
-                                    <span>
-                                        <span class="pr__grey pr__normal">5 </span>
-                                        <span class="pd__s_left pr__normal pr__yellow"><i class="fas fa-star"></i></span>
-                                        <span class="pd__s_left pr__grey pr__normal">205K Reviews</span>
-                                        <span class="pd__s_left pr__grey pr__normal"><i class="fas fa-download"></i> </span>
-                                        <span class="pd__s_left pr__grey pr__normal">10M Downloads</span>
-                                        <span class="pd__s_left pr__grey pr__normal">
-                                            <img src="img/assets/android.png"
-                                        </span> 
-                                        <span class="pd__s_left pr__normal pr__blue">
-                                            <i class="fab fa-apple"></i>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-2 dv__center dv__np dv__np_m"></div>
+                                    <div class="col-md-10 hidden__m dv__np dv__np_m">
+                                        <span>
+                                            <span class="pr__grey pr__normal">5 </span>
+                                            <span class="pd__s_left pr__normal pr__yellow"><i class="fas fa-star"></i></span>
+                                            <span class="pd__s_left pr__grey pr__normal">205K Reviews</span>
+                                            <span class="pd__s_left pr__grey pr__normal"><i class="fas fa-download"></i> </span>
+                                            <span class="pd__s_left pr__grey pr__normal">10M Downloads</span>
+                                            <span class="pd__s_left pr__grey pr__normal">
+                                                <img src="img/assets/android.png"
+                                            </span> 
+                                            <span class="pd__s_left pr__normal pr__blue">
+                                                <i class="fab fa-apple"></i>
+                                            </span>
+                                            <span class="pd__s_left pr__grey pr__normal"><a href="#">Shopping</a></span>
+                                            <span class="pd__s_left pr__grey pr__normal">|</span>
+                                            <span class="pd__s_left pr__grey pr__normal"><a href="#">Reports</a></span>
                                         </span>
-                                        <span class="pd__s_left pr__grey pr__normal"><a href="#">Shopping</a></span>
-                                        <span class="pd__s_left pr__grey pr__normal">|</span>
-                                        <span class="pd__s_left pr__grey pr__normal"><a href="#">Reports</a></span>
-                                    </span>
-                                    <div class="pr__m_t">
-                                        <span class="pr__b_green pr__radius pr__normal">
-                                            <i class="pr__plr fas fa-user pr__green"></i>
-                                            2021 users said ”helpful!"
-                                        </span>
-                                        <span class="pr__m_l pr__radius pr__b_red pr__normal">
-                                            <i class="pr__plr fas fa-fire pr__red"></i>
-                                            Trending
-                                        </span>
-                                        <span class="pr__m_l pr__radius pr__b_grey pr__plr pr__normal">
-                                            <img src="img/assets/iap.png">
-                                            In-App Purchases
-                                        </span>
+                                        <div class=" pr__m_t">
+                                            <span class="pr__b_green pr__radius pr__normal">
+                                                <i class="pr__plr fas fa-user pr__green"></i>
+                                                2021 users said ”helpful!"
+                                            </span>
+                                            <span class="pr__m_l pr__radius pr__b_red pr__normal">
+                                                <i class="pr__plr fas fa-fire pr__red"></i>
+                                                Trending
+                                            </span>
+                                            <span class="pr__m_l pr__radius pr__b_grey pr__plr pr__normal">
+                                                <img src="img/assets/iap.png">
+                                                In-App Purchases
+                                            </span>
+                                        </div>
                                     </div>
-                                    <div class="dv__nlr pr__m_t">
-                                        <span class="pr__grey pr__small_l">Published:</span>
-                                        <span class="pd__s_left pr__grey pr__small_l">Feb 24, 2019</span>
-                                        <span class="pd__s_left pr__grey pr__small_l">.</span>
-                                        <span class="pd__s_left pr__grey pr__small_l">Updated:</span>
-                                        <span class="pd__s_left pr__grey pr__small_l">Mar 24, 2019</span> 
-                                        <span class="pr__grey pr__small pr__last pd__right"><i class="fas fa-ellipsis-v"></i></span>      
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-2 dv__center dv__np dv__np_m"></div>
+                                    <div class="col-md-10 dv__np dv__np_m">
+                                        <div class="dv__nlr pr__m_t ">
+                                            <span class="pr__grey pr__small_l">Published:</span>
+                                            <span class="pd__s_left pr__grey pr__small_l">Feb 24, 2019</span>
+                                            <span class="pd__s_left pr__grey pr__small_l">.</span>
+                                            <span class="pd__s_left pr__grey pr__small_l">Updated:</span>
+                                            <span class="pd__s_left pr__grey pr__small_l">Mar 24, 2019</span> 
+                                            <span class="pr__grey pr__small pr__last pd__right"><i class="fas fa-ellipsis-v"></i></span>      
+                                        </div>
                                     </div>
                                 </div>
                             </div>
 
                             <!-- Div with comment -->
                             <div class="row dv__comment">
-                                <div class="col-md-1">
+                                <div class="col-md-1 col-2">
                                     <img src="img/sections/santiago.png">
                                 </div>
-                                <div class="col-md-11 dv__p_l">
+                                <div class="col-md-11 col-10 dv__p_l">
                                     <p class="pr__heading_xs pr__pt">Santiago Valentín</p>
                                     <p class="pr__grey">1 hour ago</p>
                                     <p class="pr__m_t pr__m_b">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -279,10 +327,10 @@
                             </div>
                             <!-- Div with comment -->
                             <div class="row dv__comment">
-                                <div class="col-md-1">
+                                <div class="col-md-1 col-2">
                                     <img src="img/sections/Ziko.png">
                                 </div>
-                                <div class="col-md-11 dv__p_l">
+                                <div class="col-md-11 col-10 dv__p_l">
                                     <p class="pr__heading_xs pr__pt">Zikoranaudodimma Nkechi</p>
                                     <p class="pr__grey">2 hours ago</p>
                                     <p class="pr__m_t pr__m_b">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -298,10 +346,10 @@
                             <div class=" dv__color col-md-12 pr__pt"><a href="#">Check what others are saying</a></div>
                                 <!-- Share Button -->
                             <div class="row dv__comment dv__p_l_s">
-                                <div class="col-md-1">
+                                <div class="col-md-1 col-2">
                                     <img src="img/sections/user.png">
                                 </div>
-                                <div class="col-md-11 dv__p_l dv__p_nr">
+                                <div class="col-md-11 col-10 dv__p_l dv__p_nr">
                                     <input class="put" type="text" placeholder="Share Your Experience…">
                                     <button class="bt bt__grey put__bt">Share</button>
                                 </div>
@@ -312,18 +360,59 @@
                         <section class="dv">
                             <div class="dv__s_padding dv__s_padding_b">
                                 <div class="row">
-                                    <div class="col-md-2 dv__center dv__np">
+                                    <div class="col-md-2 col-3 dv__center dv__np dv__np_m">
                                         <img class="image__semi_rounded" src="img/assets/ad-2.png">
                                         <div>
                                             <i class="fas fa-thumbs-up ad__symbol"></i>
                                         </div>
                                     </div>
-                                    <div class="col-md-7 dv__np">
-                                        <p class="pr__heading_s pr__m_b">Cute - Beauty Shopping</p>
-                                        <span class="pr__grey">Wish Inc</span>
-                                        <p class="pr__m_t pr__m_b pr__black pr__medium">Trending makeup and beauty products at 50-90% OFF retail.</p>
+                                    <div class="col-md-7 col-9 dv__np dv__np_m">
+                                        <p class="pr__heading_s pr__m_b ">Cute - Beauty Shopping</p>
+                                        <span class="pr__grey hidden__m">Wish Inc</span>
+                                        <p class="pr__m_t pr__m_b pr__black pr__medium hidden__m">Trending makeup and beauty products at 50-90% OFF retail.</p>
+                                        <div class="hidden-bg mobile__div">
+                                            <span>
+                                                <span class="pr__grey pr__normal">5 </span>
+                                                <span class="pd__s_left pr__normal pr__yellow"><i class="fas fa-star"></i></span>
+                                                <span class="pd__s_left pr__grey pr__normal">205K Reviews</span>
+                                                <span class="pd__s_left pr__grey pr__normal"><i class="fas fa-download"></i> </span>
+                                                <span class="pd__s_left pr__grey pr__normal">10M Downloads</span>
+                                                <span class="pd__s_left pr__grey pr__normal">
+                                                    <img src="img/assets/android.png"
+                                                </span> 
+                                                <span class="pd__s_left pr__normal pr__blue">
+                                                    <i class="fab fa-apple"></i>
+                                                </span>
+                                                <span class="pd__s_left pr__grey pr__normal"><a href="#">Shopping</a></span>
+                                                <span class="pd__s_left pr__grey pr__normal">|</span>
+                                                <span class="pd__s_left pr__grey pr__normal"><a href="#">Reports</a></span>
+                                            </span>
+                                            <div class="pr__m_t">
+                                                <span class="pr__b_green pr__radius pr__normal">
+                                                    <i class="pr__plr fas fa-user pr__green"></i>
+                                                    2021 users said ”helpful!"
+                                                </span>
+                                                <span class="pr__m_l pr__radius pr__b_red pr__normal">
+                                                    <i class="pr__plr fas fa-fire pr__red"></i>
+                                                    Trending
+                                                </span>
+                                                <span class="pr__m_l pr__radius pr__b_grey pr__plr pr__normal">
+                                                    <img src="img/assets/iap.png">
+                                                    In-App Purchases
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="row hidden__b">
+                                            <div class="col-12 dv__np dv__np_m bt__mobile">        
+                                                <button class="bt bt__blue">
+                                                    <i class="fab fa-apple"></i>
+                                                    <span class="pr__plr">Install</span>
+                                                </button>              
+                                            </div>
+                                        </div>
+                                        
                                     </div>
-                                    <div class="col-md-3 dv__np">        
+                                    <div class="col-md-3 hidden__m dv__np dv__np_m">        
                                         <span class="dv__flex">
                                             <p class="pr__medium pr__ptb pr__blue">Free</p>
                                             <button class="bt bt__blue">
@@ -335,56 +424,71 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col-md-2 dv__center dv__np"></div>
-                                <div class="col-md-10">
-                                    <span>
-                                        <span class="pr__grey pr__normal">5 </span>
-                                        <span class="pd__s_left pr__normal pr__yellow"><i class="fas fa-star"></i></span>
-                                        <span class="pd__s_left pr__grey pr__normal">205K Reviews</span>
-                                        <span class="pd__s_left pr__grey pr__normal"><i class="fas fa-download"></i> </span>
-                                        <span class="pd__s_left pr__grey pr__normal">10M Downloads</span>
-                                        <span class="pd__s_left pr__grey pr__normal">
-                                            <img src="img/assets/android.png"
-                                        </span> 
-                                        <span class="pd__s_left pr__normal pr__blue">
-                                            <i class="fab fa-apple"></i>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-2 dv__center dv__np dv__np_m"></div>
+                                    <div class="col-md-10 hidden__m dv_np dv__np_m">
+                                        <span>
+                                            <span class="pr__grey pr__normal">5 </span>
+                                            <span class="pd__s_left pr__normal pr__yellow"><i class="fas fa-star"></i></span>
+                                            <span class="pd__s_left pr__grey pr__normal">205K Reviews</span>
+                                            <span class="pd__s_left pr__grey pr__normal"><i class="fas fa-download"></i> </span>
+                                            <span class="pd__s_left pr__grey pr__normal">10M Downloads</span>
+                                            <span class="pd__s_left pr__grey pr__normal">
+                                                <img src="img/assets/android.png"
+                                            </span> 
+                                            <span class="pd__s_left pr__normal pr__blue">
+                                                <i class="fab fa-apple"></i>
+                                            </span>
+                                            <span class="pd__s_left pr__grey pr__normal"><a href="#">Shopping</a></span>
+                                            <span class="pd__s_left pr__grey pr__normal">|</span>
+                                            <span class="pd__s_left pr__grey pr__normal"><a href="#">Reports</a></span>
                                         </span>
-                                        <span class="pd__s_left pr__grey pr__normal"><a href="#">Shopping</a></span>
-                                        <span class="pd__s_left pr__grey pr__normal">|</span>
-                                        <span class="pd__s_left pr__grey pr__normal"><a href="#">Reports</a></span>
-                                    </span>
-                                    <div class="pr__m_t">
-                                        <span class="pr__b_green pr__radius pr__normal">
-                                            <i class="pr__plr fas fa-user pr__green"></i>
-                                            2021 users said ”helpful!"
-                                        </span>
-                                        <span class="pr__m_l pr__radius pr__b_red pr__normal">
-                                            <i class="pr__plr fas fa-fire pr__red"></i>
-                                            Trending
-                                        </span>
-                                        <span class="pr__m_l pr__radius pr__b_grey pr__plr pr__normal">
-                                            <img src="img/assets/iap.png">
-                                            In-App Purchases
-                                        </span>
+                                        <div class="pr__m_t">
+                                            <span class="pr__b_green pr__radius pr__normal">
+                                                <i class="pr__plr fas fa-user pr__green"></i>
+                                                2021 users said ”helpful!"
+                                            </span>
+                                            <span class="pr__m_l pr__radius pr__b_red pr__normal">
+                                                <i class="pr__plr fas fa-fire pr__red"></i>
+                                                Trending
+                                            </span>
+                                            <span class="pr__m_l pr__radius pr__b_grey pr__plr pr__normal">
+                                                <img src="img/assets/iap.png">
+                                                In-App Purchases
+                                            </span>
+                                        </div>
+                                        <div class="dv__nlr pr__m_t">
+                                            <span class="pr__grey pr__small_l">Published:</span>
+                                            <span class="pd__s_left pr__grey pr__small_l">Feb 24, 2019</span>
+                                            <span class="pd__s_left pr__grey pr__small_l">.</span>
+                                            <span class="pd__s_left pr__grey pr__small_l">Updated:</span>
+                                            <span class="pd__s_left pr__grey pr__small_l">Mar 24, 2019</span>   
+                                            <span class="pr__grey pr__small pr__last pd__right"><i class="fas fa-ellipsis-v"></i></span>  
+                                        </div>
                                     </div>
-                                    <div class="dv__nlr pr__m_t">
-                                        <span class="pr__grey pr__small_l">Published:</span>
-                                        <span class="pd__s_left pr__grey pr__small_l">Feb 24, 2019</span>
-                                        <span class="pd__s_left pr__grey pr__small_l">.</span>
-                                        <span class="pd__s_left pr__grey pr__small_l">Updated:</span>
-                                        <span class="pd__s_left pr__grey pr__small_l">Mar 24, 2019</span>   
-                                        <span class="pr__grey pr__small pr__last pd__right"><i class="fas fa-ellipsis-v"></i></span>  
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-2 dv__center dv__np dv__np_m"></div>
+                                    <div class="col-md-10 dv__np dv__np_m">
+                                        <div class="dv__nlr pr__m_t ">
+                                            <span class="pr__grey pr__small_l">Published:</span>
+                                            <span class="pd__s_left pr__grey pr__small_l">Feb 24, 2019</span>
+                                            <span class="pd__s_left pr__grey pr__small_l">.</span>
+                                            <span class="pd__s_left pr__grey pr__small_l">Updated:</span>
+                                            <span class="pd__s_left pr__grey pr__small_l">Mar 24, 2019</span> 
+                                            <span class="pr__grey pr__small pr__last pd__right"><i class="fas fa-ellipsis-v"></i></span>      
+                                        </div>
                                     </div>
                                 </div>
                             </div>
 
                             <!-- Div with comment & replay -->
                             <div class="row dv__comment dv__np_b">
-                                <div class="col-md-1">
+                                <div class="col-md-1 col-2">
                                     <img src="img/team/joana.png">
                                 </div>
-                                <div class="col-md-11 dv__p_l">
+                                <div class="col-md-11 col-10 dv__p_l">
                                     <p class="pr__heading_xs pr__pt">Joana Lette</p>
                                     <p class="pr__grey">1 hour ago</p>
                                     <p class="pr__m_t pr__m_b">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -398,10 +502,10 @@
                                 </div>
                                     <!-- For Replay -->
                                     <div class="row dv__replay">
-                                        <div class="col-md-1">
+                                        <div class="col-md-1 col-2">
                                             <img class="image__replay" src="img/team/chta.png">
                                         </div>
-                                        <div class="col-md-11 dv__p_l_m">
+                                        <div class="col-md-11 col-10 dv__p_l_m">
                                             <p class="pr__heading_xxs">Ohta Kin</p>
                                             <p class="pr__grey">1 hour ago</p>
                                             <p class="pr__m_t pr__m_b">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -415,10 +519,10 @@
 
                             <!-- Div with comment & replay  -->
                             <div class="row dv__comment">
-                                <div class="col-md-1">
+                                <div class="col-md-1 col-2">
                                     <img src="img/sections/Ziko.png">
                                 </div>
-                                <div class="col-md-11 dv__p_l">
+                                <div class="col-md-11 col-10 dv__p_l">
                                     <p class="pr__heading_xs pr__pt">Zikoranaudodimma Nkechi</p>
                                     <p class="pr__grey">2 hours ago</p>
                                     <p class="pr__m_t pr__m_b">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -437,10 +541,10 @@
                                         <img class="image__replay" src="/img//team/joana.png">
                                     </span>
                                     <span>
-                                        <input class="put" type="text" placeholder="Share Your Experience…">
+                                        <input class="put put__s" type="text" placeholder="Share Your Experience…">
                                     </span>
                                     <span>
-                                        <button class="bt bt__grey put__bt_20">Share</button>
+                                        <button class="bt bt__s bt__grey put__bt_20">Share</button>
                                     </span>
                                 </div>
                             </div>
@@ -448,10 +552,10 @@
 
                             <!-- Share Button -->
                             <div class="row dv__comment dv__p_l_m">
-                                <div class="col-md-1">
+                                <div class="col-md-1 col-2">
                                     <img src="img/sections/user.png">
                                 </div>
-                                <div class="col-md-11 dv__p_l dv__p_nr">
+                                <div class="col-md-11 col-10 dv__p_l dv__p_nr">
                                     <input class="put" type="text" placeholder="Share Your Experience…">
                                     <button class="bt bt__grey put__bt">Share</button>
                                 </div>
@@ -470,10 +574,10 @@
 
                                     <!-- Div with table -->
                                     <div class="row dv__p_l">
-                                        <div class="col-md-1">
+                                        <div class="col-md-1 col-2">
                                             <span class="pr__heading_xl">01</span>
                                         </div>
-                                        <div class="col-md-10">
+                                        <div class="col-md-10 col-8">
                                             <p class="pr__heading_s">Best Apps to Stay Efficient as a Full-Time Writer</p>
                                             <p>This is the life goal summary in display Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                             <span class="pr__m_b">
@@ -482,14 +586,14 @@
                                                 <span class="pr__small_l pr__grey">675 Contributors</span>
                                             </span>
                                         </div>
-                                        <div class="col-md-1">
+                                        <div class="col-md-1 col-2">
                                             <span> <a href="#"><i class="fas fa-chevron-right"></i></a> </span>
                                         </div>
 
-                                        <div class="col-md-1 dv__m_t">
+                                        <div class="col-md-1 col-2 dv__m_t">
                                             <span class="pr__heading_xl">02</span>
                                         </div>
-                                        <div class="col-md-10 dv__m_t">
+                                        <div class="col-md-10 col-8 dv__m_t">
                                             <p class="pr__heading_s">Top Apps to Organize & Prepare Work for Construction Workers</p>
                                             <p>This is the life goal summary in display Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                             <span class="pr__m_b">
@@ -498,14 +602,14 @@
                                                 <span class="pr__small_l pr__grey">675 Contributors</span>
                                             </span>
                                         </div>
-                                        <div class="col-md-1 dv__m_t">
+                                        <div class="col-md-1 col-2 dv__m_t">
                                             <span> <a href="#"><i class="fas fa-chevron-right"></i></a> </span>
                                         </div>
 
-                                        <div class="col-md-1 dv__m_t">
+                                        <div class="col-md-1 col-2 dv__m_t">
                                             <span class="pr__heading_xl">03</span>
                                         </div>
-                                        <div class="col-md-10 dv__m_t">
+                                        <div class="col-md-10 col-8 dv__m_t">
                                             <p class="pr__heading_s">Best 10 Apps for Video Conferencing</p>
                                             <p>This is the life goal summary in display Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                             <span class="pr__m_b">
@@ -514,14 +618,14 @@
                                                 <span class="pr__small_l pr__grey">675 Contributors</span>
                                             </span>
                                         </div>
-                                        <div class="col-md-1 dv__m_t">
+                                        <div class="col-md-1 col-2 dv__m_t">
                                             <span> <a href="#"><i class="fas fa-chevron-right"></i></a> </span>
                                         </div>
 
-                                        <div class="col-md-1 dv__m_t">
+                                        <div class="col-md-1 col-2 dv__m_t">
                                             <span class="pr__heading_xl">04</span>
                                         </div>
-                                        <div class="col-md-10 dv__m_t">
+                                        <div class="col-md-10 col-8 dv__m_t">
                                             <p class="pr__heading_s">Best 10 Dating Apps for Asian People</p>
                                             <p>This is the life goal summary in display Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                             <span class="pr__m_b">
@@ -530,7 +634,7 @@
                                                 <span class="pr__small_l pr__grey">675 Contributors</span>
                                             </span>
                                         </div>
-                                        <div class="col-md-1 dv__m_t">
+                                        <div class="col-md-1 col-2 dv__m_t">
                                             <span> <a href="#"><i class="fas fa-chevron-right"></i></a> </span>
                                         </div>
 
@@ -627,7 +731,7 @@
                                     <span class="pr__blue pd__t_1 pr__last pr__b_grey">SEE ALL</span>
                                 </span>
                             </div>
-                            <div class="dv__color dv__box_s dv__p">
+                            <div class="dv__color dv__box_s dv__p ">
                                 <span>
                                     <button class="bt bt__m_b bt__white">Sending Text Messages</button>
                                 </span>
@@ -757,7 +861,7 @@
     </section>
     
     <!-- Footer --> 
-    <section class="footer__above">
+    <section class="footer__above hidden__m">
         <div class="row footer__above_fit">
             <div class="col-md-12 footer__pr">
                 <p class="pr__heading_s pr__white">Discover & achieve life goals with the best apps</p>
@@ -765,20 +869,20 @@
                 <p class="pr__pt"><a class="pr__white" href="#">Have suggestions? <span style="text-decoration: underline;">Contact Us</span></a></p>
             </div>
 
-            <div class="col-md-3 footer__np">
+            <div class="col-md-3 col-6 footer__np">
                 <p class="pr__white_p pr__heading_s">Life Goals</p>
             </div>
-            <div class="col-md-3 footer__np">
+            <div class="col-md-3 col-6 footer__np">
                 <p class="pr__white_p pr__heading_s">Apps</p>
             </div>
-            <div class="col-md-3 footer__np">
+            <div class="col-md-3 col-6 footer__np">
                
             </div>
-            <div class="col-md-3 footer__np">
+            <div class="col-md-3 col-6 footer__np">
                 <p class="pr__white_p pr__heading_s">Games</p>
             </div>
 
-            <div class="col-md-3 footer__np">
+            <div class="col-md-3 col-6 footer__np">
                 <ul class="footer__menu_i">
                     <li class="pr__white_p_s"><a href="#" class="pr__white">Career</a></li>
                     <li class="pr__white_p_s"><a href="#" class="pr__white">Romance</a></li>
@@ -797,7 +901,7 @@
                     <li class="pr__white_p_s"><a href="#" class="pr__white">Beauty</a></li>
                 </ul>
             </div>
-            <div class="col-md-3 footer__np">
+            <div class="col-md-3 col-6 footer__np">
                 <ul class="footer__menu_i">
                     <li class="pr__white_p_s"><a href="#" class="pr__white">Art & Design</a></li>
                     <li class="pr__white_p_s"><a href="#" class="pr__white">Auto & vehicles</a></li>
@@ -820,7 +924,7 @@
                     <li class="pr__white_p_s"><a href="#" class="pr__white">Beauty</a></li>
                 </ul>
             </div>
-            <div class="col-md-3 footer__np">
+            <div class="col-md-3 col-6 footer__np">
                 <ul class="footer__menu_i">
                     <li class="pr__white_p_s"><a href="#" class="pr__white">Career</a></li>
                     <li class="pr__white_p_s"><a href="#" class="pr__white">Romance</a></li>
@@ -835,7 +939,111 @@
                     <li class="pr__white_p_s"><a href="#" class="pr__white">Personal Growth</a></li>
                 </ul>
             </div>
-            <div class="col-md-3 footer__np">
+            <div class="col-md-3 col-6 footer__np">
+                <ul class="footer__menu_i">
+                    <li class="pr__white_p_s"><a href="#" class="pr__white">Career</a></li>
+                    <li class="pr__white_p_s"><a href="#" class="pr__white">Romance</a></li>
+                    <li class="pr__white_p_s"><a href="#" class="pr__white">Family</a></li>
+                    <li class="pr__white_p_s"><a href="#" class="pr__white">Money</a></li>
+                    <li class="pr__white_p_s"><a href="#" class="pr__white">Kids</a></li>
+                    <li class="pr__white_p_s"><a href="#" class="pr__white">Exercise</a></li>
+                    <li class="pr__white_p_s"><a href="#" class="pr__white">Eating & Drinking</a></li>
+                    <li class="pr__white_p_s"><a href="#" class="pr__white">Home</a></li>
+                    <li class="pr__white_p_s"><a href="#" class="pr__white">Friends</a></li>
+                    <li class="pr__white_p_s"><a href="#" class="pr__white">Journey</a></li>
+                    <li class="pr__white_p_s"><a href="#" class="pr__white">Personal Growth</a></li>
+                    <li class="pr__white_p_s"><a href="#" class="pr__white">Learning</a></li>
+                    <li class="pr__white_p_s"><a href="#" class="pr__white">Fun</a></li>
+                    <li class="pr__white_p_s"><a href="#" class="pr__white">Wellness & Health</a></li>
+                    <li class="pr__white_p_s"><a href="#" class="pr__white">Beauty</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- For mobile -->
+    <section class="footer__above hidden__b">
+        <div class="row footer__above_fit">
+            <div class="col-md-12 footer__pr">
+                <p class="pr__heading_s pr__white">Discover & achieve life goals with the best apps</p>
+                <p class="pr__pt"><a class="pr__white" href="#">Get More Out of Life with Apps</a></p>
+                <p class="pr__pt"><a class="pr__white" href="#">Have suggestions? <span style="text-decoration: underline;">Contact Us</span></a></p>
+            </div>
+
+            <div class="col-6 footer__np">
+                <p class="pr__white_p pr__heading_s">Life Goals</p>
+            </div>
+            <div class="col-6 footer__np">
+                <p class="pr__white_p pr__heading_s">Apps</p>
+            </div>
+
+            <div class="col-6 footer__np">
+                <ul class="footer__menu_i">
+                    <li class="pr__white_p_s"><a href="#" class="pr__white">Career</a></li>
+                    <li class="pr__white_p_s"><a href="#" class="pr__white">Romance</a></li>
+                    <li class="pr__white_p_s"><a href="#" class="pr__white">Family</a></li>
+                    <li class="pr__white_p_s"><a href="#" class="pr__white">Money</a></li>
+                    <li class="pr__white_p_s"><a href="#" class="pr__white">Kids</a></li>
+                    <li class="pr__white_p_s"><a href="#" class="pr__white">Exercise</a></li>
+                    <li class="pr__white_p_s"><a href="#" class="pr__white">Eating & Drinking</a></li>
+                    <li class="pr__white_p_s"><a href="#" class="pr__white">Home</a></li>
+                    <li class="pr__white_p_s"><a href="#" class="pr__white">Friends</a></li>
+                    <li class="pr__white_p_s"><a href="#" class="pr__white">Journey</a></li>
+                    <li class="pr__white_p_s"><a href="#" class="pr__white">Personal Growth</a></li>
+                    <li class="pr__white_p_s"><a href="#" class="pr__white">Learning</a></li>
+                    <li class="pr__white_p_s"><a href="#" class="pr__white">Fun</a></li>
+                    <li class="pr__white_p_s"><a href="#" class="pr__white">Wellness & Health</a></li>
+                    <li class="pr__white_p_s"><a href="#" class="pr__white">Beauty</a></li>
+                </ul>
+            </div>
+            <div class="col-6 footer__np">
+                <ul class="footer__menu_i">
+                    <li class="pr__white_p_s"><a href="#" class="pr__white">Art & Design</a></li>
+                    <li class="pr__white_p_s"><a href="#" class="pr__white">Auto & vehicles</a></li>
+                    <li class="pr__white_p_s"><a href="#" class="pr__white">Books & Reference</a></li>
+                    <li class="pr__white_p_s"><a href="#" class="pr__white">Business</a></li>
+                    <li class="pr__white_p_s"><a href="#" class="pr__white">Comics</a></li>
+                    <li class="pr__white_p_s"><a href="#" class="pr__white">Communication</a></li>
+                    <li class="pr__white_p_s"><a href="#" class="pr__white">Eating & Drinking</a></li>
+                    <li class="pr__white_p_s"><a href="#" class="pr__white">Home</a></li>
+                    <li class="pr__white_p_s"><a href="#" class="pr__white">Friends</a></li>
+                    <li class="pr__white_p_s"><a href="#" class="pr__white">Journey</a></li>
+                    <li class="pr__white_p_s"><a href="#" class="pr__white">Personal Growth</a></li>
+                    <li class="pr__white_p_s"><a href="#" class="pr__white">Learning</a></li>
+                    <li class="pr__white_p_s"><a href="#" class="pr__white">Fun</a></li>
+                    <li class="pr__white_p_s"><a href="#" class="pr__white">Wellness & Health</a></li>
+                    <li class="pr__white_p_s"><a href="#" class="pr__white">Beauty</a></li>
+                    <li class="pr__white_p_s"><a href="#" class="pr__white">Learning</a></li>
+                    <li class="pr__white_p_s"><a href="#" class="pr__white">Fun</a></li>
+                    <li class="pr__white_p_s"><a href="#" class="pr__white">Wellness & Health</a></li>
+                    <li class="pr__white_p_s"><a href="#" class="pr__white">Beauty</a></li>
+                </ul>
+            </div>
+
+            <div class="col-6 footer__np">
+               
+            </div>
+            <div class="col-6 footer__np">
+                <p class="pr__white_p pr__heading_s">Games</p>
+            </div>
+
+            
+            <div class="col-6 footer__np">
+                <ul class="footer__menu_i">
+                    <li class="pr__white_p_s"><a href="#" class="pr__white">Career</a></li>
+                    <li class="pr__white_p_s"><a href="#" class="pr__white">Romance</a></li>
+                    <li class="pr__white_p_s"><a href="#" class="pr__white">Family</a></li>
+                    <li class="pr__white_p_s"><a href="#" class="pr__white">Money</a></li>
+                    <li class="pr__white_p_s"><a href="#" class="pr__white">Kids</a></li>
+                    <li class="pr__white_p_s"><a href="#" class="pr__white">Exercise</a></li>
+                    <li class="pr__white_p_s"><a href="#" class="pr__white">Eating & Drinking</a></li>
+                    <li class="pr__white_p_s"><a href="#" class="pr__white">Home</a></li>
+                    <li class="pr__white_p_s"><a href="#" class="pr__white">Friends</a></li>
+                    <li class="pr__white_p_s"><a href="#" class="pr__white">Journey</a></li>
+                    <li class="pr__white_p_s"><a href="#" class="pr__white">Personal Growth</a></li>
+                </ul>
+            </div>
+            <div class="col-6 footer__np">
                 <ul class="footer__menu_i">
                     <li class="pr__white_p_s"><a href="#" class="pr__white">Career</a></li>
                     <li class="pr__white_p_s"><a href="#" class="pr__white">Romance</a></li>

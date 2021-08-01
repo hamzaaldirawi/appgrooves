@@ -1,5 +1,5 @@
 footer {
-  padding: 15px;
+  padding: 15px 0;
   background-color: $color-black-footer;
 }
 
@@ -10,6 +10,9 @@ footer {
       max-width: 993px;
       margin: 0 auto;
       padding: 25px 0;
+      @include respond(tab-port) {
+        padding: 0 8px;
+      }
     }
   }
   &__header {

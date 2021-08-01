@@ -9,6 +9,10 @@ p {
     line-height: 26px;
     &_s {
       font-size: $font-size-large;
+      @include respond(phone) {
+        font-size: $font-size-med;
+        font-weight: $font-weight-medium;
+      }
     }
     &_xs {
       font-size: $font-size-med;
@@ -35,6 +39,9 @@ p {
     position: absolute;
     top: 240px;
     left: 20px;
+    @include respond(phone) {
+      top: 100px;
+    }
     &_white {
       color: $color-white;
     }
@@ -58,6 +65,9 @@ p {
 
   &__medium {
     font-size: $font-size-med;
+    @include respond(phone) {
+      font-size: $font-size-normal;
+    }
   }
 
   &__black {
@@ -101,6 +111,13 @@ p {
       }
     }
   }
+  &__p {
+    &_m2 {
+      @include respond(phone) {
+        padding-left: 40px !important;
+      }
+    }
+  }
   &__pall {
     padding: 5px 10px;
   }
@@ -113,6 +130,9 @@ p {
 
   &__plr {
     padding: 0 5px;
+    @include respond(tab-land) {
+      padding: 0;
+    }
   }
 
   &__m_t {
