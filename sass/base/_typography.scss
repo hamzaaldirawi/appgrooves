@@ -90,6 +90,17 @@ p {
   &__yellow {
     color: $color-yellow;
   }
+  &__white {
+    color: $color-white;
+    &_p {
+      color: $color-white;
+      padding: 15px 0;
+      &_s {
+        color: $color-white;
+        padding: 5px 0;
+      }
+    }
+  }
   &__pall {
     padding: 5px 10px;
   }

@@ -1,0 +1,46 @@
+footer {
+  padding: 15px;
+  background-color: $color-black-footer;
+}
+
+.footer {
+  &__above {
+    background: $color-black;
+    &_fit {
+      max-width: 993px;
+      margin: 0 auto;
+      padding: 25px 0;
+    }
+  }
+  &__header {
+    color: $color-white;
+    font-weight: $font-weight-medium;
+    font-size: 18px;
+    line-height: 21.09px;
+    color: $color-white;
+  }
+  &__copy {
+    font-weight: $font-weight-normal;
+    font-size: 12px;
+    line-height: 14.06px;
+    color: #b2b2b2;
+  }
+  &__np {
+    padding: 0;
+  }
+  &__menu {
+    &_i {
+      color: $color-white;
+      list-style: none;
+    }
+    &_flex {
+      display: inline-flex;
+      padding: 10px;
+      margin-bottom: 0;
+    }
+  }
+
+  &__pr {
+    padding: 15px 0;
+  }
+}

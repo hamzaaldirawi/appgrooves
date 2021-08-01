@@ -106,3 +106,14 @@
     }
   }
 }
+
+.i {
+  &__rounded {
+    border-radius: 50%;
+    font-size: $font-size-xl;
+  }
+
+  &__padding {
+    padding: 5px 10px;
+  }
+}
